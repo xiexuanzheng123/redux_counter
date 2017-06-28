@@ -14,4 +14,11 @@ require ('../css/style')
          )
      }
  }
+
+ Counter.propTypes = {
+     increment: PropTypes.func.isRequired,
+     decrement: PropTypes.func.isRequired,
+     counter: PropTypes.number.isRequired
+ }
+
  export default Counter
