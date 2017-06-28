@@ -1,20 +1,20 @@
 #root{
     background: lightblue;
-    width: 300px;
+    width: 500px;
     height: 100px;
     margin: 20px auto;
     text-align: center;
     line-height: 50px;
 }
 .label{
-    width: 50px;
+    width: 70px;
     display: inline-block;
     color: red;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
 button{
-    width: 50px;
+    width: 70px;
     height: 30px;
-    margin: 0 10px;
+    margin: 0 15px;
 }
