@@ -10,7 +10,7 @@ module.exports = {
             'webpack-hot-middleware/client?reload=true'
         ],
         index: [
-            './index'
+            './counter/index'
         ]
     },
     output: {
@@ -47,5 +47,9 @@ module.exports = {
             hash: true,
             chunks: ['index']
         })
+        // ,
+        // new ExtractTextPlugin(
+        //     ['./counter/css/bootstrap.css']
+        // )
     ]
 }
